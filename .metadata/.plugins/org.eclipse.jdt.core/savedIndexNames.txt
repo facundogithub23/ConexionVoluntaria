@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\1Taty\0.Curso programación web fullstack\0.Proyecto final\version Romi - login-registro-spring-security\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2443923715.index
+365930008.index

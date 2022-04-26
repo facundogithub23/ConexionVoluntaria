@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+}
+/* se realizo css */
+/*imagen de fondo*/
+.logo{
+  position: fixed;
+  right: calc(50% - 40px);
+  top: 20px;
+}
+nav{
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url(https://www.criptotendencias.com/wp-content/uploads/2018/12/nodos-y-supernodos-en-la-blockchain.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+/*degrade y botones centrados*/
+
+.left {
+  background: linear-gradient(
+    rgb(255, 248, 236),
+    rgba(25, 25, 160, 0.411),
+    rgb(3, 216, 145)
+  );
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+/*boton en movimiento*/
+
+.btn {
+  padding: 2.5rem 20rem;
+  cursor: pointer;
+  position: relative;
+}
+/*centrado de division de pantalla*/
+
+.left h1 {
+  color: black;
+  font-size: 40px;
+  font-family: 'arial';
+}
+.left p {
+  color: black;
+  font-size: 20px;
+  font-family: 'arial';
+}
+/* bordes de pagina */
+.left a {
+  font-family:'arial';
+  border-radius: 25px;
+  border: 2.5px solid blue;
+  text-decoration: none;
+  padding: 10px 50px;
+  transition: background 1s;
+  color: white;
+}
+
+/* complemento del degrade*/
+.left a:hover {
+  background: white;
+  color: blue;
+}
+/* siguiente boton*/
+.right {
+  background: linear-gradient(rgb(243, 197, 112, rgb(255, 255, 255)));
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.btn {
+  padding: 2.5rem 20rem;
+  cursor: pointer;
+  position: relative;
+}
+.right h1 {
+  color: black;
+  font-size: 40px;
+  font-family: 'arial';
+}
+.right p {
+  color: black;
+  font-size: 20px;
+  font-family: 'arial';
+}
+/* bordes de pagina */
+.right a {
+  font-family:'arial';
+  border-radius: 25px;
+  border: 2.5px solid blue;
+  text-decoration: none;
+  padding: 10px 50px;
+  transition: background 1s;
+  color: white;
+}
+
+/* complemento del degrade*/
+.right a:hover {
+  background: white;
+  color: blue;
+}

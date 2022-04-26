@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConexionVoluntaria</title>
+    <link rel="stylesheet" href="css/styles1.css">
+</head>
+
+<body>
+
+	 <nav>
+      <input
+        type="button"
+        onclick="location.href='http://localhost:8080'"
+        value="Inicio"
+      />
+      <input
+        type="button"
+        onclick="location.href='http://localhost:8080/nosotros'"
+        value="Nosotros"
+      />
+      <input
+        type="button"
+        onclick="location.href='http://localhost:8080/novedades'"
+        value="Novedades"
+      />
+      <input
+        type="button"
+        onclick="location.href='http://localhost:8080/FAQ'"
+        value="FAQ"
+      />
+      <input
+        type="button"
+        onclick="location.href='http://localhost:8080/contacto'"
+        value="Contacto"
+      />
+    </nav>
+    
+    <div class="container-post">
+
+        <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+        <input type="radio" id="SALUD" name="categories" value="SALUD">
+        <input type="radio" id="EDUCACION" name="categories" value="EDUCACION">
+        <input type="radio" id="DERECHOS_HUMANOS" name="categories" value="DERECHOS_HUMANOS">
+        <input type="radio" id="ALIMENTACION" name="categories" value="ALIMENTACION">
+        <input type="radio" id="ADULTOS_MAYORES" name="categories" value="ADULTOS_MAYORES">
+
+        <div class="container-category">
+            <label for="TODOS">TODOS</label>
+            <label for="SALUD">SALUD</label>
+            <label for="EDUCACION">EDUCACION</label>
+            <label for="DERECHOS_HUMANOS">DERECHOS_HUMANOS</label>
+            <label for="ALIMENTACION">ALIMENTACION</label>
+            <label for="ADULTOS_MAYORES">ADULTOS_MAYORES</label>
+        </div>
+
+        <div class="posts">
+
+            <div class="post" data-category="EDUCACION SALUD">
+
+                <div class="ctn-img">
+                    <img src="img/ONG 1.jpg" alt="">
+                </div>
+                <h2>ONG 1 (acá va el nombre de la ONG)</h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>EDUCACION</li>
+                    <li>SALUD</li>
+                </ul>
+                <a href="articulo.html"><button>POSTULARSE</button></a>
+
+            </div>
+
+            <div class="post" data-category="SALUD">
+
+                <div class="ctn-img"><img src="img/ONG 2.jpg" alt=""></div>
+                <h2>ONG 2 (acá va el nombre de la ONG)</h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>SALUD</li>
+                </ul>
+                <a href="#"><button>POSTULARSE</button></a>
+
+            </div>
+
+            <div class="post" data-category="DERECHOS_HUMANOS">
+
+                <div class="ctn-img"><img src="img/ONG 3.jpg" alt=""></div>
+                <h2>ONG 3 (acá va el nombre de la ONG)</h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>DERECHOS_HUMANOS</li>
+                </ul>
+                <a href="#"><button>POSTULARSE</button></a>
+
+            </div>
+
+            <div class="post" data-category="DERECHOS_HUMANOS ADULTOS_MAYORES">
+
+                <div class="ctn-img"><img src="img/ONG 4.jpg" alt=""></div>
+                <h2>ONG 4 (acá va el nombre de la ONG)</h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>DERECHOS_HUMANOS</li>
+                    <li>ADULTOS_MAYORES</li>
+                </ul>
+                <a href="#"><button>POSTULARSE</button></a>
+
+            </div>
+
+            <div class="post" data-category="EDUCACION">
+
+                <div class="ctn-img"><img src="img/ONG 5.jpg" alt=""></div>
+                <h2>ONG 5 (acá va el nombre de la ONG)</h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>EDUCACION</li>
+                </ul>
+                <a href="#"><button>POSTULARSE</button></a>
+
+            </div>
+
+            <div class="post" data-category="ALIMENTACION">
+
+                <div class="ctn-img"><img src="img/ONG 6.jpg" alt=""></div>
+                <h2>ONG 6 (acá va el nombre de la ONG) </h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>ALIMENTACION</li>
+                </ul>
+                <a href="#"><button>POSTULARSE</button></a>
+
+            </div>
+
+            <div class="post" data-category="EDUCACION ADULTOS_MAYORES">
+
+                <div class="ctn-img"><img src="img/ONG 7.jpg" alt=""></div>
+                <h2>ONG 7 (acá va el nombre de la ONG)</h2>
+                <span>26 febrero 2020 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>EDUCACION</li>
+                    <li>ADULTOS_MAYORES</li>
+                </ul>
+                <a href="#"><button>POSTULARSE</button></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

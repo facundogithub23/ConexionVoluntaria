@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css ">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+
+	<div class="container mt-10">
+		<form th:action="@{/save}" th:object=${enti} method="POST">
+			<div class="col-sm-6">
+				<div class="card">
+					<div class="card-header">
+						<h3>Modulo ONG</h3>
+					</div>
+
+					<div class="card-body">
+						<div class="form-group">
+							
+							<input type="hidden" th:field="*{id}" class="form-control"  />
+						
+							<input type="hidden" th:field="*{usuario}" class="form-control"/>
+						
+						<div class="form-group">
+							<label>contraseña </label>
+							<input th:field="*{contrasena}" type="text" class="form-control" />
+
+						</div>
+
+						<div class="card-footer">
+							<input type="submit" value="guardar" class="btn btn-success">
+						</div>
+
+					</div>
+
+				</div>
+		</form>
+
+	</div>
+</body>
+
+</html>

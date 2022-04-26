@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="e">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css" /
+    <title></title>
+</head>
+<body>
+
+    <h1>Regristro</h1>
+
+
+    <h2>Crea una cuenta</h2>
+
+    <form action="/registro" method="post">
+
+        <input type="text" name="username" placeholder="Ingrese un nombre de usuario">
+        <br><br>
+        <input type="password" name="password" placeholder="Ingrese una ontraseña">
+        <br><br>
+        <input type="text" name="name" placeholder="Ingresá el nombre de la organización">
+        <br><br>
+        <input type="text" name="location" placeholder="Ingresá la ubicación">
+        <br><br>
+        <input type="number" name="cuit" placeholder="Ingresá el CUIT">
+        <br><br>
+         <input type="number" name="telefono" placeholder="Ingresá el teléfono">
+        <br><br>
+        <input type="String" name="email" placeholder="Ingresá el email">
+        <br><br>
+        <input type="String" name="descripcion" placeholder="Ingresá la descripción de la Organización">
+        <br><br>
+        <h4>Elegí una categoría</h4>
+         <select name="categoria">
+            <option value="ONG">Salud</option>
+            <option value="ONG">Educación</option>
+            <option value="ONG">Ambiental</option>
+            <option value="ONG">Adultos mayores</option>
+            <option value="ONG">Niños</option>
+        </select> 
+        <br><br>
+        <select name="role">
+            <option value="ONG">Ong</option>
+        </select>
+        <button type="submit">ingresar</button>
+
+    </form>
+
+
+    <br>
+    <br>
+    <a href="/ong">volver</a>
+    
+</body>
+</html>

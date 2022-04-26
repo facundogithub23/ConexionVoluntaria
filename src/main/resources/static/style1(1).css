@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    padding: 10px   ;
+    background-image: url(https://www.criptotendencias.com/wp-content/uploads/2018/12/nodos-y-supernodos-en-la-blockchain.jpg);
+}
+
+.form-register{
+    width: 400px;
+    
+    margin: auto;
+    margin: auto;
+    margin-top: -1px;
+    border-radius: 4px;
+    font-family: 'arial';
+    color: white;
+    box-shadow: 7px 13px 37px white,blue,rgb(0, 98, 128);
+
+}
+
+
+.form-register h4 {
+    font-family: 'arial';
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 22px;
+
+}
+
+.controls{
+  width: 100%;
+  background: black;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  text-decoration:none;
+  
+  border: 3px solid #1f53c5;
+  font-family: 'arial';
+  font-size: 19px;
+  color:white;
+
+
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+
+}
+
+.form-register a {
+    color: #1f53c5;
+    text-decoration: none;
+
+
+
+}
+
+.form-register a:hover {
+    font-family: 'arial';
+    color: black;
+    text-decoration: underline;
+}
+
+
+.form-register botons {
+    
+    width: 100% ;
+    background:#1f53c5;
+    border: none;
+    padding: 2.5rem 20rem;
+    color: blue;
+    margin:  25px 0;
+    font-size: 25px;
+    
+}
+/*boton registrar*/
+.botons{
+  width: 100%;
+  border-radius: 25px;
+  border: 2.5px solid blue;
+  text-decoration: none;
+  padding: 10px 10px;
+  transition: background 1s;
+  color: white;
+}
+.botons:hover {
+    background: black;
+    color: white;
+  }
+  
+ .botons {
+     border-color: #1f53c5;
+     background: none;
+    color: #1f53c5;
+    text-align: center;
+    font-size: 20px;
+    padding: 2.5rem 2.5rem;
+    cursor: pointer;
+    position: relative;
+    transition: background 1s;
+    color: blue;
+  }
+  /* bordes de pagina */
+  .botons :hover   {
+    background: blue;
+    border-radius: 10px;
+    border: 1px solid  #24303c;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: background 1s;
+    padding: 2.5rem 2.5rem;
+ }
+  
+  /* complemento del degrade*/
+
+
